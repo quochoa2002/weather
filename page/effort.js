@@ -123,27 +123,27 @@ function generateFixedEffortSchedules(items) {
 // Example usage
 const items = [
     {
-        itemId: "6666",
+        itemId: "6106",
         effort: {
-            "Study requirement(Study document, study coding)": 5,
-            "Investigate bug impact": 5,
-            "Q&A": 4,
-            "Meeting Q&A": 4,
-            Coding: 6,
+            "Study requirement(Study document, study coding)": 2,
+            "Investigate bug impact": 16,
+            "Q&A": 2,
+            "Meeting Q&A": 1,
+            Coding: 10,
             "Create Unit Test": 4,
-            "Test Unit Test && Fix Bug": 6,
+            "Test Unit Test && Fix Bug": 3,
         },
     },
     {
-        itemId: "6677",
+        itemId: "6061",
         effort: {
-            "Study requirement(Study document, study coding)": 4,
-            "Investigate bug impact": 4,
+            "Study requirement(Study document, study coding)": 2,
+            "Investigate bug impact": 8,
             "Q&A": 4,
-            "Meeting Q&A": 4,
-            Coding: 6,
-            "Create Unit Test": 4,
-            "Test Unit Test && Fix Bug": 6,
+            "Meeting Q&A": 1,
+            Coding: 24,
+            "Create Unit Test": 8,
+            "Test Unit Test && Fix Bug": 4,
         },
     },
 ];
