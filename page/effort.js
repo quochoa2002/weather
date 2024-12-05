@@ -146,6 +146,18 @@ const items = [
             "Test Unit Test && Fix Bug": 4,
         },
     },
+    {
+        itemId: "6105",
+        effort: {
+            "Study requirement(Study document, study coding)": 2,
+            "Investigate bug impact": 4,
+            "Q&A": 1,
+            "Meeting Q&A": 1,
+            Coding: 8,
+            "Create Unit Test": 4,
+            "Test Unit Test && Fix Bug": 2,
+        },
+    },
 ];
 
 const checkEffortActual = () => {
